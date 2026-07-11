@@ -20,3 +20,6 @@ crash.log
 # Ignore local variable files containing actual secrets
 *.tfvars
 *.tfvars.json
+
+# Reference code
+reference/

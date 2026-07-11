@@ -2,15 +2,15 @@ apiVersion: v1
 kind: Service
 
 metadata:
-  name: emailservice
+  name: adservice
   namespace: online-boutique
 
 spec:
   selector:
-    app: emailservice
+    app: adservice
 
   ports:
-  - port: 5000
-    targetPort: 8080
+  - port: 9555
+    targetPort: 9555
 
   type: ClusterIP

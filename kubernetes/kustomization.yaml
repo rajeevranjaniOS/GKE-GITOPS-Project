@@ -3,6 +3,25 @@ kind: Kustomization
 
 resources:
   - namespace.yaml
-
   - redis/deployment.yaml
   - redis/service.yaml
+  - productcatalog/deployment.yaml
+  - productcatalog/service.yaml
+  - cartservice/deployment.yaml
+  - cartservice/service.yaml
+  - currencyservice/deployment.yaml
+  - currencyservice/service.yaml
+  - shippingservice/deployment.yaml
+  - shippingservice/service.yaml
+  - paymentservice/deployment.yaml
+  - paymentservice/service.yaml
+  - emailservice/deployment.yaml
+  - emailservice/service.yaml
+  - checkoutservice/deployment.yaml
+  - checkoutservice/service.yaml
+  - recommendationservice/deployment.yaml
+  - recommendationservice/service.yaml
+  - adservice/deployment.yaml
+  - adservice/service.yaml
+  - frontend/deployment.yaml
+  - frontend/service.yaml
