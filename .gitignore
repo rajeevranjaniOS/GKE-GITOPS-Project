@@ -1,0 +1,22 @@
+# Local directory for received plugins
+.terraform/
+terraform/.terraform/
+
+# Lock file adjustments (Optional to track, but often ignored in early projects)
+#.terraform.lock.hcl
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore all log files
+*.log
+
+# Ignore state files (CRITICAL: Never leak secrets)
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Ignore local variable files containing actual secrets
+*.tfvars
+*.tfvars.json
